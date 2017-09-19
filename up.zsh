@@ -14,4 +14,8 @@ if ! which cf; then
   brew install cloudfoundry/tap/cf-cli
 fi
 
+if ! which atom; then
+  brew install caskroom/cask/atom
+fi
+
 echo "Be sure to change the password from 'youreallyneedtochangemenow'"
